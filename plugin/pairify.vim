@@ -28,4 +28,3 @@ function! s:pairify()
 endfunction
 
 inoremap <expr> <silent> <Plug>(pairify-complete) <SID>pairify()
-imap <C-J> <Plug>(pairify-complete)
